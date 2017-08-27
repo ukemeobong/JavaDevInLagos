@@ -1,0 +1,18 @@
+
+<resources>
+    <string name="app_name">JavaDevInLagos</string>
+    <string name="refresh">Refresh</string>
+    <!--<string name="title_activity_detail">DetailActivity</string>-->
+    <string name="title_activity_user_details">User Details</string>
+
+    <!--Response Messages-->
+    <string name="progress_text">Please wait</string>
+    <string name="bad_request">Bad Network</string>
+    <string name="request_fail">Please try again</string>
+    <string name="offline_text">Check the URL if it is correct</string>
+
+    <string name="user_name_full">Name: %s</string>
+    <string name="user_url_full">URL: %s</string>
+    <string name="location_full">Location: Lagos</string>
+
+</resources>

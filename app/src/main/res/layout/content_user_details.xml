@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uetechnologies.ukemeobong.javadevinlagos.UserDetails"
+    tools:showIn="@layout/activity_user_details">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/userImageDetails"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            app:riv_corner_radius="16dp" />
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/userImageDetails">
+
+            <TextView
+                android:id="@+id/userTextViewDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp" />
+
+            <TextView
+                android:id="@+id/urlTextViewDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"/>
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
